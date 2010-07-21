@@ -1,0 +1,71 @@
+\documentclass[11pt,fleqn]{article}
+
+\usepackage[pdftex]{graphicx}
+
+\begin{document}
+
+\title{Modelos y Paradigmas de Comunidades Virtuales Transaccionales}
+
+\author{Mar\'ia Gabriela Vald\'es Graterol}
+
+\date{Julio 21, 2010}
+
+\maketitle
+
+\pagebreak
+
+\section{Modelos de Comunidades Virtuales Transaccionales}
+
+Para desarrollar en el \'area de pagos m\'oviles se requiere de la cooperación de muchas entidades y de todas las partes interesadas (\emph{stakeholders}) para así retribuir financieramente a cada uno de acuerdo a su aporte en el modelo de negocio que se adopte o de acuerdo al nivel de riesgo que maneje en todo el proceso.
+
+\subsection{Modelo centrado en el Operador M\'ovil}
+
+En este modelo el operador m\'ovil act\'ua independientemente para poner en el mercado aplicaciones de pagos m\'oviles en dispositivos m\'oviles \emph{NFC-enabled} (Near Field Communication). De esta forma ellos mismos son los encargados de distribuir en los dispositivos m\'oviles de sus clientes, sus mismas aplicaciones de pagos m\'oviles; as\'i como proveer a los comerciantes con el sistema POS (Point Of Sale) inal\'ambrico, o activar la aplicaci\'on de pagos en sus dispositivos m\'oviles, al igual que con los clientes.\\
+
+El m\'as beneficiado en este modelo es el operador m\'ovil, ya que es quien abarca y maneja la mayor\'ia de los riesgos y responsabilidades, as\'i como el total control de la corriente de ingresos. Por otro lado, se cree que los operadores m\'oviles no son la entidad m\'as apta para manejar asuntos relacionados con resoluciones de pago, manejo de privacidad, fraude, etc.
+
+\subsection{Modelo centrado en el Banco}
+
+En este modelo el banco ser\'ia el encargado de proveer el medio de pago, en este caso un tel\'efono \emph{NFC-enabled}, del mismo modo que distribuye tarjetas de cr\'edito o d\'ebito a sus clientes. Adem\'as, tambi\'en debe proveer al comerciante con el dispositivo POS adecuado.\\
+
+A pesar de que en este modelo, la entidad central sea el banco, se cree que el operador m\'ovil  tambi\'en tiene un papel importante en el proceso y por lo tanto debe verse beneficiado al actuar como posible distribuidor de la aplicaci\'on m\'ovil del banco.
+
+\subsection{Modelo Peer-To-Peer}
+
+Este modelo surge por la necesidad de procesar pagos de una forma distinta, con el objetivo de eliminar el sistema de pagos existente que necesita terminales de POS y todo lo dem\'as que viene consigo. La idea general consiste en permitir a los clientes realizar pagos tanto a comerciantes y bancos, como a clientes a trav\'es de un dispositivo m\'ovil, haciendo transparente al usuario, todo el proceso de transacci\'on bancaria que ocurre en el fondo. Como consecuencia, se facilita el proceso de operaci\'on entre personas o empresas peque\~nas.\\
+
+De esta forma, el proveedor de la aplicaci\'on de pagos m\'oviles es el encargado de prestar el servicio de enrutamiento de transacciones entre bancos, comerciantes y clientes.\\
+
+Existen varias estrategias de implementaci\'on de pagos peer-to-peer:
+
+\begin{itemize}
+\item El proveedor de la aplicaci\'on de pagos m\'oviles, despliega los dispositivos m\'oviles a los clientes y equipos POS a los comerciantes.
+\item El proveedor de la aplicaci\'on de pagos m\'oviles despliega dicha aplicaci\'on para el dispositivo m\'ovil \emph{NFC-enabled}.
+\item El proveedor del servicio peer-to-peer utiliza una aplicaci\'on en l\'inea existente como \emph{PayPal Mobile}.
+\end{itemize}
+
+Algo importante que destacar en la implantaci\'on de este modelom es que para que tenga \'exito y sentido, tanto los comerciantes como los clientes y bancos, deben adoptar y aceptar la tecnolog\'ia y el modelo de negocio.
+
+\subsection{Modelo Colaborativo}
+
+Este modelo, como su nombre lo indica, involucra la colaboraci\'on de bancos, operadores m\'oviles y otros \emph{stakeholders} que formen parte de la cadena de pagos.\\
+
+En este caso, la aplicaci\'on de pagos m\'oviles puede ser distribuida por una entidad extera, independiente y confiable o por el mismo operador m\'ovil involucrado en el proceso.\\
+
+El modelo colaborativo es el m\'as fiable de entre los expuestos anteriormente porque cada una de las partes interesadas se enfoca y trabaja en su propia \'area de competencias. Adem\'as, este modelo presenta la mejor relaci\'on Riesgo vs. Beneficio para cada uno de los \emph{stakeholders} participantes.\\
+
+Actualmente este modelo ha sido el m\'as dificil de implementar ya que existe una especie \emph{deadlock} estrat\'egico en la industria; es decir, todos estan a la espera de que alguien de el primer paso.
+
+\section{PayPal}
+
+\emph{PayPal} es una aplicaci\'on web que adopta el modelo peer-to-peer anteriormente descrito, que permite a usuarios registrados previamente con un correo electr\'onico, hacer transferencias de dinero a otros usuarios que tambi\'en posean un registro en la p\'agina. Es una alternativa a los m\'etodos tradicionales de pago en efectivo, cheques o tarjetas.\\
+
+Esta aplicaci\'on permite que las transacciones se concluyan de forma inmediata entre 2 usuarios y que el receptor del pago pueda corroborar el mismo enseguida.
+
+\section{Web 2.0}
+
+La Web 2.0 se refiere a una nueva generaci\'n de sitios web basados en la creaci\'on de contenidos producidos y compartidos por los propios usuarios de la p\'agina. As\'i, los sitios web, act\'uan m\'as como puntos de encuentro, o webs dependientes de usuarios.\\
+
+La Web 1.0 es la Web tradicional anterior a la Web 2.0, que se caracteriza porque el contenido e informaci\'on de los sitios es producido por un editor o Webmaster para luego ser consumido o visto por los visitantes de ese sitio. En el modelo de la Web 2.0 la informaci\'on y contenidos se producen directa o indirectamente por los usuarios del sitio web y adicionalmente \'esta informaci\'on es compartida por varios portales web que poseen \'estas mismas caracter\'isticas. Esto es, los usuarios de la Web 2.0, son los productores de la informaci\'on que ellos mismos consumen.
+
+\end{document}
